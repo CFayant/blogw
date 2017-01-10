@@ -1,0 +1,9 @@
+/									=> home = liste des posts
+['GET|POST']	/post/create		=> créer un nouveau post/article
+['GET'] 		/post/[i:id]/delete	=> supprimer un post
+['GET|POST']	/post/[i:id]/edit	=> éditer/modifier un post
+['GET']			/post/[i:id]		=> détail d'un post
+
+/register
+/login
+/logout
